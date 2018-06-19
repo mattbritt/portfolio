@@ -1,7 +1,5 @@
-version: "0.1"
+version: '2'
 services:
   app:
     build: .
     image: app:0.0.1
-    ports:
-    - "8080:80"
